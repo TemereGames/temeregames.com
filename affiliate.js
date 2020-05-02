@@ -1,8 +1,8 @@
 const HOST = "https://f8819921.ngrok.io"
 
-function processEmail( affiliateLink ) {
+function processEmail( affiliateLink, campaign ) {
     var http = new XMLHttpRequest();
-    var url = HOST + "affiliate-api";
+    var url = HOST + campaign;
     var data = { "email": document.getElementById( "email" ).value };
 
     if ( !!data.email && data.email.includes( "@" ) && data.email.includes( "." ) && data.email.length >= 5 ) {
