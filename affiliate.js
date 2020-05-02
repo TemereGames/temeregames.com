@@ -1,4 +1,4 @@
-const HOST = "https://f8819921.ngrok.io"
+const HOST = "https://f8819921.ngrok.io/"
 
 function processEmail( affiliateLink, campaign ) {
     var http = new XMLHttpRequest();
