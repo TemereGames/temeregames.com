@@ -1,12 +1,11 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
 }
 
 body, html {
     background-color: #ABC;
     height: 90%;
-    line-height: 20px;
+    line-height: 35px;
     text-align: center;
 }
 
@@ -41,4 +40,9 @@ button {
     font-weight: bolder;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightgreen;
+}
+
+.footer {
+    font-size: 10px;
+    line-height: 15px;
 }
